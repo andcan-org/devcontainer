@@ -6,10 +6,14 @@
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"features": {
 		"ghcr.io/devcontainers/features/go:1": {},
+		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
 		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers/features/terraform:1": {},
 		"ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
 		"ghcr.io/guiyomh/features/golangci-lint:0": {},
-		"ghcr.io/guiyomh/features/gotestsum:0": {}
+		"ghcr.io/guiyomh/features/gotestsum:0": {},
+		"./features/hcloud-cli": {},
+    	"./features/tools": {}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

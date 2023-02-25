@@ -1,0 +1,12 @@
+{
+    "id": "hcloud-cli",
+    "name": "HCloud CLI",
+    "options": {
+      "version": {
+        "type": "string",
+        "description": "HCloud CLI version"
+      }
+    },
+    "version": "0.0.1"
+  }
+  

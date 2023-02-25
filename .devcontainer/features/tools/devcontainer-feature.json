@@ -1,0 +1,25 @@
+{
+  "id": "tools",
+  "name": "Intalls tools",
+  "options": {
+    "binenvVersion": {
+      "type": "string"
+    },
+    "cueVersion": {
+      "type": "string"
+    },
+    "packVersion": {
+      "type": "string"
+    },
+    "temporaliteVersion": {
+      "type": "string"
+    },
+    "yqVersion": {
+      "type": "string"
+    }
+  },
+  "version": "0.0.1",
+  "containerEnv": {
+    "BINENV_GLOBAL": "true"
+  }
+}
